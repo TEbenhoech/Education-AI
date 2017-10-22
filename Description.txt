@@ -1,0 +1,10 @@
+Theo Ebenhoech
+
+This project uses a behavior tree to implement the basic logic behind an instructor teaching a class, and then asking for questions.
+Students can be in one of three states, have a question, have no question, and getting question answered. This is shown by the student either being red, green, or blue respectively.
+
+The teacher is either lecturing or answering questions. While answering questions he adresses them in the order the students had the question (raised their hand).
+Future work is making the teacher move to the student before answering the question, and coverting the HCSM used in UniVRsity into a behavior tree.
+
+A large problem I had come across while making this was the creation of the behavior tree strcuture. Originally I had wanted to create the tree myself, 
+but after looking at many resources, this became more difficult than I had anticipated. I instead found a free asset that had most of a binary tree implemented, and used the asset to create the AI.
